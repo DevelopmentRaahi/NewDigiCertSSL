@@ -1,11 +1,10 @@
-// let mybutton = document.getElementById("btn-back-to-top");
-// let socialIcons = document.querySelector(".whatsap_button");
-
-// // When the user scrolls down 20px from the top of the document, show the button
-// window.onscroll = function () {
-//   scrollFunction();
-// };
-
+var carrButton = document.querySelectorAll('[href="https://domgys.in/careers.html"]')
+console.log(carrButton);
+if (carrButton) {
+  for (const el of carrButton) {
+  el.textContent = "Career";
+}
+}
 // function scrollFunction() {
 //   if (
 //     document.body.scrollTop > 20 ||
